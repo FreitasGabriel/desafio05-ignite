@@ -4,4 +4,30 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --highlight: #FF57B2;
+  --heading: #F8F8F8;
+  --background: #1A1D23;
+  --info: #BBBBBB;
+  --body: #D7D7D7;
+}
+
+body {
+  background: var(--background);
+}
+
+@media(max-width: 1080px){
+  hmtl {
+      font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720px){
+  hmtl {
+      font-size: 87.5%;
+  }
+}
+
+body, input, textarea, select, button{
+  font-family: "Inter";
+}

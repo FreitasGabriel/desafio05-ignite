@@ -1,1 +1,17 @@
-// TODO
+.header{
+  width: 100%;
+  height: 85px;
+}
+
+.centralDiv{
+
+  max-width: 1120px;
+  height: 85px;
+  margin: 0 auto;
+  padding: 81px 0 0 172px;
+
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
